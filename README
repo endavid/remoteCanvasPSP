@@ -1,0 +1,23 @@
+Short:		Remote Canvas test for PSP
+Author:		Hawk/FB
+Uploader:	Hawk/FB
+Type:		app/test
+Version:	0.6 (first public release)
+Tested on:	PSP 2.0
+Loader:		Fanjita EBOOT loader 0.9
+
+
+Using WiFi Multitest .03 by PspPet as base, I added a simple chat-like program that just sends the other users your current coordinates, and visualizes other users' coordinates in the PSP screen. 
+
+I added a small function that lets you choose the server's IP address (util.c), and a thread that listens to incoming messages.
+
+The program comes with a simple Java server and 2 example clients. The server's default port is 4004.
+
+One of the clients displays the movements as simple fires, and lets you chat briefly. 
+
+The other client, moves the pointer, so you can remotely control your computer from your PSP. I used this during a presentation.
+
+It's my first PSP program. I hope someone finds it useful!
+
+
+
